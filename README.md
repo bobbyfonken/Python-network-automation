@@ -1,13 +1,13 @@
 # Python network automation script
 ## About
-This is a side project that I made to expand my knowledge for the amount of about 20 hours.
+This is a side project that I made for school.
 I started with limited knowledge of **python** and the programs/modules for **network automation** and ended up with this interactive script.
-It uses **Napalm** and **Pyntc** which uses **Netmiko** as an underlying bases to make automatic changes to routers and swithces.
+It uses **Napalm** and **Pyntc** which uses **Netmiko** as an underlying bases to make automatic changes to routers and switches.
 
 ## Prerequisites
 In order to properly run the script, there are a few things you should install in advance.
 
-* Python
+* python
 * build-essential libssl-dev libffi-dev
 * python-pip
 * cryptography
@@ -43,14 +43,14 @@ no shutdown
 exit
 ```
 
-After this you should be able to securily ssh into your device, but we can use the script, **network.py**, to do this for us.
+After this you should be able to securely ssh into your device, but we can use the script, **network.py**, to do this for us.
 You can run it by entering:
 
 ```
 python network.py
 ```
 
-Before running this however, try to make sure you have your napalm Cisco Ios configuration files or your pyntc configation files with one command per line as seen from the configure terminal mode, ready somewhere.
+Before running this however, try to make sure you have your napalm Cisco Ios configuration files or your Pyntc configuration files with one command per line as seen from the configure terminal mode, ready somewhere.
 You should also have a hosts file ready somewhere with the following JSON structure:
 
 ```
@@ -75,4 +75,4 @@ gpg -o file.txt -d file.txt.gpg
 ```
 
 Now you should have enough information to make use of this script.
-Other stuff is also explained in the script itself or when using trough the interface.
+Other stuff is also explained in the script itself or when using it through the interface.
