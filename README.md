@@ -5,7 +5,8 @@ I started with limited knowledge of **python** and the programs/modules for **ne
 It uses **Napalm** and **Pyntc** which uses **Netmiko** as an underlying bases to make automatic changes to routers and swithces.
 
 ## Prerequisites
-In order to properly run the script their are a few things you should do in advance.
+In order to properly run the script, there are a few things you should install in advance.
+
 * Python
 * build-essential libssl-dev libffi-dev
 * python-pip
@@ -16,7 +17,7 @@ In order to properly run the script their are a few things you should do in adva
 * gnupg
 
 After you have installed the necessary components, you should be able to run the script.
-Off course in order to make connection to Cisco Ios devices you first need to enable ssh on them and activate the scp server.
+Off course in order to make a connection to Cisco Ios devices you first need to enable ssh on them and activate the scp server.
 You can use the commands below as an example:
 
 ```
@@ -74,3 +75,4 @@ gpg -o file.txt -d file.txt.gpg
 ```
 
 Now you should have enough information to make use of this script.
+Other stuff is also explained in the script itself or when using trough the interface.
