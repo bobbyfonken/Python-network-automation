@@ -49,6 +49,7 @@ def pyntc_multiple(device, user, passwordp, config_file):
 		for command in f:
 			commands.append(command.strip())
 
+	print("Sending commands to: " + str(device))
 	Cisco.config_list(commands)
 	Cisco.close()
 	print("Commands sent to: " + str(device))
