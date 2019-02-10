@@ -16,6 +16,20 @@ In order to properly run the script, there are a few things you should install i
 * pyntc
 * gnupg
 
+You can do this with the following commands:
+
+```
+apt-get update
+apt-get install python -y
+apt-get install build-essential libssl-dev libffi-dev -y
+apt-get install python-pip -y
+pip install cryptography
+pip install netmiko
+pip install napalm
+pip install pyntc
+pip install gnupg
+```
+
 After you have installed the necessary components, you should be able to run the script.
 Off course in order to make a connection to Cisco Ios devices you first need to enable ssh on them and activate the scp server.
 You can use the commands below as an example:
