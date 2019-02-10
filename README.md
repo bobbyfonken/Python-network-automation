@@ -91,21 +91,53 @@ gpg -o file.txt -d file.txt.gpg
 Now you should have enough information to make use of this script.
 Other stuff is also explained in the script itself or when using it through the interface.
 
-**Napalm config file**
+## Napalm config file
 A Napalm config file looks like the running config, but without the following lines:
 
 ```
+Building configuration...
 
+
+Current configuration : 3861 bytes
+!
+! Last configuration change at 18:13:34 UTC Sun Feb 10 2019
+!
 ```
 
-Also if these are present delete them aswell, besides these you should copy and paste from an original file to make sure the identation is correct.
+Also if these are present, delete them aswell. Besides these you should copy and paste from an original file to make sure the indentation is correct.
 
 ```
-
+banner exec ^C
+**************************************************************************
+* IOSv is strictly limited to use for evaluation, demonstration and IOS  *
+* education. IOSv is provided as-is and is not supported by Cisco's      *
+* Technical Advisory Center. Any use or disclosure, in whole or in part, *
+* of the IOSv Software or Documentation to any third party for any       *
+* purposes is expressly prohibited except as otherwise authorized by     *
+* Cisco in writing.                                                      *
+**************************************************************************^C
+banner incoming ^C
+**************************************************************************
+* IOSv is strictly limited to use for evaluation, demonstration and IOS  *
+* education. IOSv is provided as-is and is not supported by Cisco's      *
+* Technical Advisory Center. Any use or disclosure, in whole or in part, *
+* of the IOSv Software or Documentation to any third party for any       *
+* purposes is expressly prohibited except as otherwise authorized by     *
+* Cisco in writing.                                                      *
+**************************************************************************^C
+banner login ^C
+**************************************************************************
+* IOSv is strictly limited to use for evaluation, demonstration and IOS  *
+* education. IOSv is provided as-is and is not supported by Cisco's      *
+* Technical Advisory Center. Any use or disclosure, in whole or in part, *
+* of the IOSv Software or Documentation to any third party for any       *
+* purposes is expressly prohibited except as otherwise authorized by     *
+* Cisco in writing.                                                      *
+**************************************************************************^C
 ```
 
 For references you can look at: "sample_napalm_config.cfg".
 
-**Pyntc config file**
+## Pyntc config file
 This file contains commands as seen from the configure terminal mode seperated as one command per line.
 For references you can look at: "sample_pyntc_config.cfg".
