@@ -90,3 +90,22 @@ gpg -o file.txt -d file.txt.gpg
 
 Now you should have enough information to make use of this script.
 Other stuff is also explained in the script itself or when using it through the interface.
+
+**Napalm config file**
+A Napalm config file looks like the running config, but without the following lines:
+
+```
+
+```
+
+Also if these are present delete them aswell, besides these you should copy and paste from an original file to make sure the identation is correct.
+
+```
+
+```
+
+For references you can look at: "sample_napalm_config.cfg".
+
+**Pyntc config file**
+This file contains commands as seen from the configure terminal mode seperated as one command per line.
+For references you can look at: "sample_pyntc_config.cfg".
