@@ -68,10 +68,10 @@ Before running this however, try to make sure you have your napalm Cisco Ios con
 You should also have a hosts file ready somewhere with the following JSON structure:
 
 ```
-[{"host": "IP, "username": "USERNAME", "password": "PASSWORD"},
-{"host": "IP, "username": "USERNAME", "password": "PASSWORD"},
-{"host": "IP, "username": "USERNAME", "password": "PASSWORD"},
-{"host": "IP, "username": "USERNAME", "password": "PASSWORD"},
+[{"host": "IP", "username": "USERNAME", "password": "PASSWORD"},
+{"host": "IP", "username": "USERNAME", "password": "PASSWORD"},
+{"host": "IP", "username": "USERNAME", "password": "PASSWORD"},
+{"host": "IP", "username": "USERNAME", "password": "PASSWORD"},
 ...]
 ```
 
