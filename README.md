@@ -4,6 +4,17 @@ This is a side project that I made for school.
 I started with limited knowledge of **python** and the programs/modules for **network automation** and ended up with this interactive script.
 It uses **Napalm** and **Pyntc** which uses **Netmiko** as an underlying bases to make automatic changes to routers and switches.
 
+## GNS3 Topology table
+| Naam                   | VLAN IP        | Subnet        |
+| ---------------------- | -------------- | ------------- |
+| CiscoIOSvL215.2.4055-1 | 192.168.122.81 | 255.255.255.0 |
+| CiscoIOSvL215.2.4055-2 | 192.168.122.82 | 255.255.255.0 |
+| CiscoIOSvL215.2.4055-3 | 192.168.122.83 | 255.255.255.0 |
+| CiscoIOSvL215.2.4055-4 | 192.168.122.84 | 255.255.255.0 |
+| CiscoIOSvL215.2.4055-5 | 192.168.122.85 | 255.255.255.0 |
+
+The bottom three belong to the access layer. The two above belong to the core layer.
+
 ## Prerequisites
 In order to properly run the script, there are a few things you should install in advance.
 
