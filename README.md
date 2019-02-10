@@ -155,3 +155,4 @@ After you have setup an ssh connection and added the correct users, run the scri
 ## Pyntc config file
 This file contains commands as seen from the configure terminal mode seperated as one command per line.
 For references you can look at: "sample_pyntc_config.cfg".
+**Note:** commands that require user input can be problematic.
