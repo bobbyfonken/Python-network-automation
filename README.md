@@ -138,6 +138,9 @@ banner login ^C
 
 For references you can look at: "sample_napalm_config.cfg".
 
+### Best practice!!!
+After you have setup an ssh connection and added the correct users, run the script network.py and choose option 3. Take the backup files as reference. You can copy this for each device. This way you make sure the encrypted passwords etc. will remain correct for each device.
+
 ## Pyntc config file
 This file contains commands as seen from the configure terminal mode seperated as one command per line.
 For references you can look at: "sample_pyntc_config.cfg".
